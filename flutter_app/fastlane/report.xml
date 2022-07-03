@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="fastlane.lanes">
+    
+    
+    
+      
+      <testcase classname="fastlane.lanes" name="0: number_of_commits" time="0.034167">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="1: flutter packages get" time="2.835949">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="2: flutter clean" time="4.672836">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="3: flutter build apk --build-number\=265" time="35.203643">
+        
+      </testcase>
+    
+  </testsuite>
+</testsuites>

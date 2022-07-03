@@ -1,0 +1,1 @@
+an android app that helps users to plan their daily trips.

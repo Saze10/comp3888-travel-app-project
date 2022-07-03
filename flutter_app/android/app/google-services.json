@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "627915581372",
+    "project_id": "comp3888project",
+    "storage_bucket": "comp3888project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:627915581372:android:dce851bcfd0a1159deedb9",
+        "android_client_info": {
+          "package_name": "com.comp3888.trip_planner_2021"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "627915581372-i3cnvh0hh68cpjlrtjt83t14nhsk7oes.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA24cZql3rEjHN3jRnY4pIjS_qoyy_mSoM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "627915581372-i3cnvh0hh68cpjlrtjt83t14nhsk7oes.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

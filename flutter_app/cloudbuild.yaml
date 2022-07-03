@@ -1,0 +1,19 @@
+steps:
+  - name: 'gcr.io/cloud-builders/git'
+    args: ['clone', 'https://bitbucket.org/zelu2930/comp3888_t15_06_group3.git']
+    dir: '/workspace'
+
+
+  - name: 'gcr.io/$PROJECT_ID/flutter'
+    entrypoint: '/bin/bash'
+    args: ['flutter_app/build.sh', '${_REPO_NAME}']
+
+#  - name: 'gcr.io/$PROJECT_ID/fastlane'
+#    args: ['Internal']
+#    dir: '/workspace/flutter_app'
+
+
+  - name: 'gcr.io/$PROJECT_ID/fastlane'
+    args: ['supply', '--package_name','com.comp3888.trip_planner_2021', '--track', 'internal', '--json_key', '/workspace/flutter_app/fine-eye-326411-dbbdb921a40c.json', '--aab', '/workspace/flutter_app/build/app/outputs/bundle/release/app-release.aab']
+    #dir: '/workspace/flutter_app'
+timeout: 1200s
